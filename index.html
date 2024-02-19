@@ -2,109 +2,198 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clase 2</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copia de Dynamo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main-content.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/merch.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
 </head>
 
 <body>
-       <header>
-        <section class="header-content">
-            <img class="logo" src="./assets/Icons/Logo.webp" alt="Logo de la tienda">
-            <img class="search-ico" src="./assets/Icons/search_Ico.svg" alt="Icono de Buscar">
-            <input class="search-input" type="text" placeholder="Buscar la tienda entera aquí...">
-            <img class="cart-icon" src="./assets/Icons/cart_Ico.svg" alt="Icono de carrito">
-        
+    <header>
+        <section class="header-top">
+            <section class="content-left">
+                <a href="">
+                    <img class="logo" src="./assets/Icons/Logo.webp" alt="Logo de la tienda">
+                </a>
+                <form>
+                    <i>
+                        <img class="search-ico" src="./assets/Icons/search_Ico.svg" alt="Icono de Buscar">
+                    </i>
+                    <input class="search-input" type="text" placeholder="Buscar la tienda entera aquí...">
+                </form>
+            </section>
+            <section class="content-right">
+                <i>
+                    <svg viewBox="0 0 1024 1024" class="icon icon-cart" xmlns="http://www.w3.org/2000/svg">
+                        <path class="path1" d="M409.6 1024c-56.464 0-102.4-45.936-102.4-102.4s45.936-102.4 102.4-102.4S512 865.136 512 921.6 466.064 1024 409.6 1024zm0-153.6c-28.232 0-51.2 22.968-51.2 51.2s22.968 51.2 51.2 51.2 51.2-22.968 51.2-51.2-22.968-51.2-51.2-51.2z"></path>
+                        <path class="path2" d="M768 1024c-56.464 0-102.4-45.936-102.4-102.4S711.536 819.2 768 819.2s102.4 45.936 102.4 102.4S824.464 1024 768 1024zm0-153.6c-28.232 0-51.2 22.968-51.2 51.2s22.968 51.2 51.2 51.2 51.2-22.968 51.2-51.2-22.968-51.2-51.2-51.2z"></path>
+                        <path class="path3" d="M898.021 228.688C885.162 213.507 865.763 204.8 844.8 204.8H217.954l-5.085-30.506C206.149 133.979 168.871 102.4 128 102.4H76.8c-14.138 0-25.6 11.462-25.6 25.6s11.462 25.6 25.6 25.6H128c15.722 0 31.781 13.603 34.366 29.112l85.566 513.395C254.65 736.421 291.929 768 332.799 768h512c14.139 0 25.6-11.461 25.6-25.6s-11.461-25.6-25.6-25.6h-512c-15.722 0-31.781-13.603-34.366-29.11l-12.63-75.784 510.206-44.366c39.69-3.451 75.907-36.938 82.458-76.234l34.366-206.194c3.448-20.677-1.952-41.243-14.813-56.424zm-35.69 48.006l-34.366 206.194c-2.699 16.186-20.043 32.221-36.39 33.645l-514.214 44.714-50.874-305.246h618.314c5.968 0 10.995 2.054 14.155 5.782 3.157 3.73 4.357 9.024 3.376 14.912z"></path>
+                    </svg>
+                </i>
+            </section>
         </section>
-        <section class="web-content">
+        <section class="header-bottom">
             <nav>
                 <ul class="navegate-links">
-                    <li><a href="#">⛳ SPICY CLUB</a></li>
-                    <li><a href="#">NEW MERCH</a></li>
-                    <li><a href="#">CAMISETAS Y CAMISAS</a></li>
-                    <li><a href="#">INFERIORES👖</a></li>
-                    <li><a href="#">BÁSICOS</a></li>
-                    <li><a href="#">GORRAS</a></li>
-                    <li><a href="#">SACOS Y CHAQUETAS</a></li>
-                    <li><a href="#">ACCESORIOS</a></li>
-                    <li><a href="#">TIENDAS FÍSICAS</a></li>
-                    <li><a href="#"> 🔴 DESCUENTOS 🔴</a></li>
+                    <li><a href="#" class="nav-item">⛳ SPICY CLUB</a></li>
+                    <li><a href="#" class="nav-item">NEW MERCH</a></li>
+                    <li><a href="#" class="nav-item">CAMISETAS Y CAMISAS</a></li>
+                    <li><a href="#" class="nav-item">INFERIORES👖</a></li>
+                    <li><a href="#" class="nav-item">BÁSICOS</a></li>
+                    <li><a href="#" class="nav-item">GORRAS</a></li>
+                    <li><a href="#" class="nav-item">SACOS Y CHAQUETAS</a></li>
+                    <li><a href="#" class="nav-item">ACCESORIOS</a></li>
+                    <li><a href="#" class="nav-item">TIENDAS FÍSICAS</a></li>
+                    <li><a href="#" class="nav-item"> 🔴 DESCUENTOS 🔴</a></li>
                 </ul>
             </nav>
         </section>
     </header>
-
     <main>
-        <section class="Marketing">
-            <img src="./assets/Ropa_1.webp" alt="Foto de Marketing" class="Marketing">
+        <section class="top-carousel">
+            <article class="carousel-wrapper">
+                <article id="slide-1" class="carousel-slide">
+                    <img src="assets\images\banner-slide.webp" alt="banner-slide" />
+                </article>
+                <article id="slide-2" class="carousel-slide">
+                    <img src="assets\images\banner-slide-1.webp" alt="banner-slide" />
+                </article>
+            </article>
+            <span class="carousel-buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+            </span>
         </section>
-
-    <section class="product">
-            <img src="./assets/Producto1.jpg" alt="Producto 1">
-            <h2>Producto 1</h2>
-            <p>Descripción del producto 1.</p>
-            <p class="price">$19.99</p>
-            <button>Añadir al carrito</button>
+        <section class="new-merch">
+            <h3>
+                <span>new merch</span>
+            </h3>
+            <section class="new-merch-content">
+                <section class="new-merch-content-wrapper">
+                    <article class="merch">
+                        <section class="merch-top">
+                            <span>nuevo</span>
+                            <a href="" class="add-cart-container">
+                                <span>añadir al carrito</span>
+                            </a>
+                            <img src="assets\images\merch-1.webp" alt="merch-1" />
+                        </section>
+                        <section class="merch-bottom">
+                            <a href="">
+                                Buso Oversize Taupe Ligth Angora
+                            </a>
+                            <span>$110.000,00</span>
+                        </section>
+                    </article>
+                    <article class="merch">
+                        <section class="merch-top">
+                            <span>nuevo</span>
+                            <a href="" class="add-cart-container">
+                                <span>añadir al carrito</span>
+                            </a>
+                            <img src="assets\images\merch-2.webp" alt="merch-2" />
+                        </section>
+                        <section class="merch-bottom">
+                            <a href="">
+                                Camiseta Oversize Verde Botella Royal High
+                            </a>
+                            <span>$75.000,00</span>
+                        </section>
+                    </article>
+                    <article class="merch">
+                        <section class="merch-top">
+                            <span>nuevo</span>
+                            <a href="" class="add-cart-container">
+                                <span>añadir al carrito</span>
+                            </a>
+                            <img src="assets\images\merch-3.webp" alt="merch-3" />
+                        </section>
+                        <section class="merch-bottom">
+                            <a href="">
+                                Jeans Baggy Boslillo Cargo - Ref 441
+                            </a>
+                            <span>$170.000,00</span>
+                        </section>
+                    </article>
+                    <article class="merch">
+                        <section class="merch-top">
+                            <span>nuevo</span>
+                            <a href="" class="add-cart-container">
+                                <span>añadir al carrito</span>
+                            </a>
+                            <img src="assets\images\merch-4.webp" alt="merch-4" />
+                        </section>
+                        <section class="merch-bottom">
+                            <a href="">
+                                Camiseta Oversize Negra Shakur
+                            </a>
+                            <span>$75.000,00</span>
+                        </section>
+                    </article>
+                </section>
+            </section>
         </section>
-
-        <section class="product">
-            <img src="./assets/Producto2.jpg" alt="Producto 2">
-            <h2>Producto 2</h2>
-            <p>Descripción del producto 2.</p>
-            <p class="price">$29.99</p>
-            <button>Añadir al carrito</button>
+        <section class="bottom-hero">
+            <a href="https://dynamobrand.co/collections/the-spicy-club-dynamo-x-paisa-vlogs">
+                <img src="assets\images\bottom-banner.webp" alt="bottom-banner" />
+            </a>
         </section>
-
-        <section class="product">
-            <img src="./assets/Producto2.jpg" alt="Producto 2">
-            <h2>Producto 2</h2>
-            <p>Descripción del producto 2.</p>
-            <p class="price">$29.99</p>
-            <button>Añadir al carrito</button>
-        </section>
-
     </main>
-
     <footer>
-        <section>
-            <h3>Sección 1</h3>
+        <section class="categorys">
+            <h2>CATEGORÍAS</h2>
             <ul>
-                <li><a href="#">Enlace 1</a></li>
-                <li><a href="#">Enlace 2</a></li>
-                <li><a href="#">Enlace 3</a></li>
+                <li><a href="#">⛳Spicy Club</a></li>
+                <li><a href="#">New Merch</a></li>
+                <li><a href="#">Camisetas Y Camisas</a></li>
+                <li><a href="#">Inferiores 👖</a></li>
+                <li><a href="#">Básicos</a></li>
+                <li><a href="#">Gorras</a></li>
+                <li><a href="#">Sacos Y Chaquetas</a></li>
+                <li><a href="#">Tiendas Físicas</a></li>
+                <li><a href="#">🔴 Descuentos 🔴</a></li>
             </ul>
         </section>
 
-        <section>
-            <h3>Sección 2</h3>
+        <section class="customer_service">
+            <h2>SERVICIO AL CLIENTE</h2>
             <ul>
-                <li><a href="#">Enlace 4</a></li>
-                <li><a href="#">Enlace 5</a></li>
-                <li><a href="#">Enlace 6</a></li>
+                <li><a href="#">Quiero Comprar Al Por Mayor</a></li>
+                <li><a href="#">Política De Privacidad De Datos</a></li>
+                <li><a href="#">Políticas De Envío, Garantía Y Devolución</a></li>
+                <li><a href="#">Contáctanos</a></li>
+
             </ul>
         </section>
 
-        <section>
-            <h3>Sección 3</h3>
+        <section class="information">
+            <h2>INFORMACIÓN</h2>
             <ul>
-                <li><a href="#">Enlace 7</a></li>
-                <li><a href="#">Enlace 8</a></li>
-                <li><a href="#">Enlace 9</a></li>
+                <li><p>Horario: Lunes a viernes 8:00 am - 5:30 pm Sábados 8:00 am - 1:30 pm.</p></li>
+                <li><a href="#">Contacto: 312 3163998 (WhatsApp)</a></li>
+                <li><a href="#">Correo: web@dynamobrand.co</a></li>
+                <li><a href="#">Ver Tiendas Físicas</a></li>
+
             </ul>
         </section>
 
-        <section>
-            <h3>Sección 4</h3>
-            <ul>
-                <li><a href="#">Enlace 10</a></li>
-                <li><a href="#">Enlace 11</a></li>
-                <li><a href="#">Enlace 12</a></li>
-            </ul>
-        </section>
+        <section class="contact_us">
+            <h3>¡SÉ PARTE DE LA NACIÓN DYNAMO!</h3>
+            <p>*¡Recibe el 10% en tu próxima compra y Sé el primero en enterarte de todo!*</p>
+            <form>
+				<input type="email" placeholder="Ingresa tu correo">
+				<button type="submit">Enviar</button>
+			</form>
 
+            <h3>SÍGUENOS EN REDES</h3>
+            <img src="" alt="">
+        </section>
     </footer>
-
 </body>
-
 </html>

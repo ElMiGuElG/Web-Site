@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+header {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 3.175% 1px 3.175%;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    display: flex;
+    align-content: center;
+}
+
+.content-left > a > img {
+    object-fit: contain;
+}
+
+.content-left > form {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.content-left > form > i {
+    width: 22px;
+    height: 22px;
+}
+
+.content-left > form > i > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.content-left > form > input {
+    background-color: #fafafa;
+    border: none;
+    margin: 0 12px;
+    padding: 8px;
+    width: 468px;
+}
+
+.content-left > form > input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+}
+
+.content-right > i {
+    width: 22px;
+    height: 22px;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-bottom > nav {
+    display: flex;
+}
+
+.header-bottom > nav > ul {
+    display: flex;
+    gap: 30px;
+    padding: 16px 0;
+}
+
+.header-bottom > nav > ul > li:hover > a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.nav-item {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}

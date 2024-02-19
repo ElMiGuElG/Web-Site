@@ -1,130 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
 body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background: #fff;
-    padding: 10px;
-    text-align: center;
-}
-.header-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    padding: 2px 5%;
-}
-
-.header-content .logo {
-    max-width: 200px;
-    height: auto;
-    cursor: pointer;
-    flex-grow: 1;
-}
-
-.header-content .search-ico {
-    max-width: 25px;
-    height: auto;
-    flex-grow: 1;
-    padding-left:10px;
-}
-
-.header-content .search-input {
-
-    border: 0;
-    font-size: 20px;
-    padding-left:10px;
-    flex-grow: 2;
-}
-
-.header-content .cart-icon {
-    max-width: 30px;
-    height:auto;
-    flex-grow: 1;
-}
-
-.web-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 3%;
-}
-.web-content .navegate-links{
-    list-style: none;
-}
-.web-content .navegate-links li{
-    display: inline-block;
-    padding: 15px;
-}
-
-.web-content .navegate-links a{
-    font-size: 700;
-    color: #333;
-    font-style: oblique;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.Marketing img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-
-}
-
-.product {
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    height: 50%;
-    margin-bottom: 10px;
-}
-
-.price {
-    font-weight: bold;
-    color: #333;
-}
-
-button {
-    background: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-section {
-    text-align: center;
-}
-
-h3 {
-    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 ul {
     list-style: none;
 }
 
-li {
-    margin-bottom: 5px;
-}
-
 a {
     text-decoration: none;
-    color: #fff;
 }

@@ -1,0 +1,18 @@
+main {
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: aquamarine; */
+}
+
+.bottom-hero {
+    width: 100vw;
+}
+
+.bottom-hero > a {
+    width: 100%;
+}
+
+.bottom-hero > a > img {
+    object-fit: cover;
+    width: 100%;
+}

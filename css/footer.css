@@ -1,0 +1,90 @@
+footer {
+    width: 100%;
+    /* height: 20vh; */
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+  footer h2, h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer li a:hover {
+    color: #ccc;
+  }
+  
+  footer .categorys,
+  footer .customer_service,
+  footer .information {
+    flex: 1;
+  }
+  
+  footer .contact_us {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .contact_us h3 {
+    margin-bottom: 1rem;
+  }
+  
+  footer .contact_us p {
+    margin-bottom: 1rem;
+  }
+  
+  footer .contact_us form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  footer .contact_us input[type="email"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 2px solid #ffc107;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  footer .contact_us button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ffc107;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  footer .contact_us button[type="submit"]:hover {
+    background-color: #e0b90f;
+  }
+  
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .social-media img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+  }
