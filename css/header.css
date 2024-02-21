@@ -17,27 +17,27 @@ header {
     align-content: center;
 }
 
-.content-left > a > img {
+.content-left>a>img {
     object-fit: contain;
 }
 
-.content-left > form {
+.content-left>form {
     display: flex;
     align-items: center;
     margin: 0 12px;
 }
 
-.content-left > form > i {
+.content-left>form>i {
     width: 22px;
     height: 22px;
 }
 
-.content-left > form > i > img {
+.content-left>form>i>img {
     object-fit: cover;
     width: 100%;
 }
 
-.content-left > form > input {
+.content-left>form>input {
     background-color: #fafafa;
     border: none;
     margin: 0 12px;
@@ -45,7 +45,7 @@ header {
     width: 468px;
 }
 
-.content-left > form > input:focus-visible {
+.content-left>form>input:focus-visible {
     border: none;
     outline: none;
 }
@@ -55,7 +55,7 @@ header {
     align-items: center;
 }
 
-.content-right > i {
+.content-right>i {
     width: 22px;
     height: 22px;
 }
@@ -64,17 +64,17 @@ header {
     display: flex;
 }
 
-.header-bottom > nav {
+.header-bottom>nav {
     display: flex;
 }
 
-.header-bottom > nav > ul {
+.header-bottom>nav>ul {
     display: flex;
     gap: 30px;
     padding: 16px 0;
 }
 
-.header-bottom > nav > ul > li:hover > a {
+.header-bottom>nav>ul>li:hover>a {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }

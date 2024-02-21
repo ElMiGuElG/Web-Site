@@ -7,15 +7,15 @@
     padding: 85px 0 55px 0;
 }
 
-.new-merch > h3 {
+.new-merch>h3 {
     margin-bottom: 14px;
-    position: relative; 
+    position: relative;
     text-align: center;
     width: 100%;
 }
 
-.new-merch > h3::before {
-    content: ""; 
+.new-merch>h3::before {
+    content: "";
     display: block;
     position: absolute;
     top: calc(50% - 1px);
@@ -25,7 +25,7 @@
     background-color: #c7c7c7;
 }
 
-.new-merch > h3 > span {
+.new-merch>h3>span {
     background-color: white;
     display: inline-block;
     font-family: "Roboto", sans-serif;
@@ -56,12 +56,12 @@
     width: 100%;
 }
 
-.merch-top > img {
+.merch-top>img {
     object-fit: contain;
     width: 100%;
 }
 
-.merch-top > span {
+.merch-top>span {
     background-color: white;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
@@ -75,7 +75,7 @@
     left: 0;
 }
 
-.merch-top > .add-cart-container {
+.merch-top>.add-cart-container {
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@
     width: 100%;
 }
 
-.merch-top > .add-cart-container>span {
+.merch-top>.add-cart-container>span {
     background-color: white;
     border: 1px solid black;
     display: flex;
@@ -107,7 +107,7 @@
     text-align: center;
 }
 
-.merch-bottom > a {
+.merch-bottom>a {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -116,7 +116,7 @@
     text-transform: capitalize;
 }
 
-.merch-bottom > span {
+.merch-bottom>span {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
     font-size: 14px;

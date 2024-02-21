@@ -6,11 +6,11 @@ main {
     width: 100vw;
 }
 
-.top-hero > a {
+.top-hero>a {
     width: 100%;
 }
 
-.top-hero > a > img {
+.top-hero>a>img {
     object-fit: cover;
     width: 100%;
 }
@@ -20,11 +20,11 @@ main {
     width: 100vw;
 }
 
-.bottom-hero > a {
+.bottom-hero>a {
     width: 100%;
 }
 
-.bottom-hero > a > img {
+.bottom-hero>a>img {
     object-fit: cover;
     width: 100%;
 }

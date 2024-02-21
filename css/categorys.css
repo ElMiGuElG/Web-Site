@@ -1,30 +1,29 @@
-
 .categorys {
     display: flex;
     flex-direction: column;
     padding: 35px 0 55px 0;
 }
 
-.categorys > h3 {
+.categorys>h3 {
     margin-bottom: 14px;
     text-transform: uppercase;
-    position: relative; 
+    position: relative;
     text-align: center;
     width: 100%;
 }
 
-.categorys > h3::before {
+.categorys>h3::before {
     content: "";
     display: block;
     position: absolute;
-    top:calc(50% - 1px);
-    left:0;
+    top: calc(50% - 1px);
+    left: 0;
     width: 100%;
     height: 2px;
     background-color: #c7c7c7;
 }
 
-.categorys > h3 > span {
+.categorys>h3>span {
     background-color: white;
     display: inline-block;
     font-family: "Roboto", sans-serif;
@@ -40,8 +39,8 @@
 
 .gallery {
     display: flex;
-    justify-content:center; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -50,12 +49,12 @@
     overflow: hidden;
 }
 
-.item > img {
+.item>img {
     width: 100%;
     height: auto;
 }
 
-.item > img:hover {
+.item>img:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
