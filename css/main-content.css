@@ -2,6 +2,20 @@ main {
     width: 100%;
 }
 
+.top-hero {
+    width: 100vw;
+}
+
+.top-hero > a {
+    width: 100%;
+}
+
+.top-hero > a > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
 .bottom-hero {
     width: 100vw;
 }
